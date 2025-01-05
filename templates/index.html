@@ -6,7 +6,7 @@
 
     {% for food in foods %}
         <ul>
-            <h4><li>{{food.name}} : {{food.price}}$ |</li> <button>BUY</button></h4>
+            <h4><li>{{food.name}} : {{food.price}}$ |</li> <button onclick="buy({{food.id}})">BUY</button></h4>
         </ul>
     {% endfor %}
   

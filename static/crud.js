@@ -8,7 +8,9 @@ if (displayTotal) {
     console.error("Element with id 'total-value' not found!");
 }
 
-const add = (id) =>{
-    console.log(`Adding ${id}`);
-    
+const buy = (id) =>{
+    console.log(`Buying ${id}`);
+    axios.post(`http://127.0.0.1:5000/add`, {
+        id
+    } )
 }
