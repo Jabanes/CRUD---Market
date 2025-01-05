@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<u><h1>Products:</h1></u>
+<div class="food-container">
+
+    {% for food in foods %}
+        <ul>
+            <h4><li>{{food.name}} : {{food.price}}$ |</li> <button>BUY</button></h4>
+        </ul>
+    {% endfor %}
+  
+</div>
+
+<u><h1>CART:</h1></u>
+<div class="cart-container">
+    <!-- <ul>
+        <h4><li></li>ProcutName<button>Remove</button></h4>
+    </ul> -->
+
+
+</div>
+
+
+<div id="total" class="total-container">
+    <h2>Total: <span id="total-value">0</span>$</h2>
+</div>
+{% endblock %}

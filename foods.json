@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Apples",
+        "price": 1.50
+    },
+    {
+        "id": 2,
+        "name": "Bananas",
+        "price": 0.75
+    },
+    {
+        "id": 3,
+        "name": "Carrots",
+        "price": 0.50
+    },
+    {
+        "id": 4,
+        "name": "Bread",
+        "price": 2.00
+    },
+    {
+        "id": 5,
+        "name": "Milk",
+        "price": 1.25
+    }
+]
