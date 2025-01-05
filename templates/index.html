@@ -14,10 +14,11 @@
 
 <u><h1>CART:</h1></u>
 <div class="cart-container">
-    <!-- <ul>
-        <h4><li></li>ProcutName<button>Remove</button></h4>
-    </ul> -->
-
+    {% for food in cart %}
+    <ul>
+        <h4><li></li>{{food.name}}<button onclick="remove({{food.id}})">Remove</button></h4>
+    </ul>
+    {% endfor %} 
 
 </div>
 
